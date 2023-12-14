@@ -1,0 +1,45 @@
+// Import All Using Helpers Directory
+@use "helpers/usinghelpers" as *;
+
+// Begining Of The Project
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Arial;
+  height: 100vh;
+  @include flex(null, null, center, center, null);
+}
+.container {
+  width: 80%;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+.accordion {
+  &-section {
+    margin-bottom: 20px;
+    &__head {
+      background-color: color(gry-color-01);
+      padding: 20px;
+      border-radius: 7px 7px 0 0;
+      @include flex(null, null, space-between, center, null);
+      @include transition;
+      &:hover {
+        background-color: color(gry-color-02);
+      }
+      i {
+        cursor: pointer;
+      }
+    }
+    &__desc {
+      background-color: color(gry-color-02);
+      border-radius: 0 0 7px 7px;
+      overflow: hidden;
+      height: 0;
+      @include transition;
+    }
+  }
+}

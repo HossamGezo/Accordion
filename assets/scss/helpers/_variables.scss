@@ -1,0 +1,23 @@
+// Color BreakPoints
+$color-breakpoints: (
+  // Black Shades
+  blk-color-01:#333333,
+  // Blue Shades
+  blu-color-01:#085C94,
+  blu-color-02:#0B9FE5,
+  // Green Shades
+  grn-color-01:#129A67,
+  grn-color-02:#008B8B,
+  // Yellow Shades
+  yel-color-01:#ffd700,
+  // White Shades
+  wit-color-01:#FFFFFF,
+  wit-color-02:#F1F5F9,
+  // Gray Shades
+  gry-color-01:#D2D2D2,
+  gry-color-02:#F0F0F0,
+);
+// BoxShadows BreakPoints
+$boxshadow-breakpoints: (
+  boxshadow-01:rgba(0, 0, 0, 0.45) 0px 25px 20px -20px,
+);

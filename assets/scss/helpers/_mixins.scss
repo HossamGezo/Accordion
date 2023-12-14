@@ -1,0 +1,14 @@
+// 1 --- Flex Mixin
+@mixin flex($direction, $wrap, $justify, $align, $gap) {
+  display: flex;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+  justify-content: $justify;
+  align-items: $align;
+  gap: $gap;
+}
+
+// 2 --- Transition Mixin
+@mixin transition($transition: 0.3s) {
+  transition: $transition linear;
+}

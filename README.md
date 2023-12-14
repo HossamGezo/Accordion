@@ -1,4 +1,4 @@
-#ACCORDION
+# ACCORDION
 
-###Accordion Link
+### Accordion Link
 [Go To Accordion](https://hossamgezo.github.io/Accordion/)
